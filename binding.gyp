@@ -33,6 +33,7 @@
                                        'deps/win/pasori_open_multi.c'
                                        ],
                           'include_dirs':[
+				        "<!(node -e \"require('nan')\")",
                                         '<(module_root_dir)/deps/win/felicalib',
                                         '<(module_root_dir)/deps/win/include'
                                         ],
